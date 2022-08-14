@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity">
+
+    <TextView
+        android:id="@+id/txtTest"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="23dp"
+        android:text="Item"
+        app:layout_constraintBottom_toTopOf="@+id/txtTest2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtLabel3"
+        app:layout_constraintTop_toBottomOf="@+id/txtLabel4" />
+
+    <TextView
+        android:id="@+id/txtTest3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="24dp"
+        android:text="Item"
+        app:layout_constraintBottom_toTopOf="@+id/txtTest4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtLabel5"
+        app:layout_constraintTop_toBottomOf="@+id/txtTest2" />
+
+    <TextView
+        android:id="@+id/txtTest4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="297dp"
+        android:text="Item"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtLabel6"
+        app:layout_constraintTop_toBottomOf="@+id/txtTest3" />
+
+    <TextView
+        android:id="@+id/txtTest2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="22dp"
+        android:text="Item"
+        app:layout_constraintBottom_toTopOf="@+id/txtTest3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtLabel2"
+        app:layout_constraintTop_toBottomOf="@+id/txtTest" />
+
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="17dp"
+        android:text="ITEM"
+        app:layout_constraintBottom_toTopOf="@+id/txtLabel3"
+        app:layout_constraintEnd_toStartOf="@+id/txtLabel4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtLabel4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="17dp"
+        android:text="QUANTITY"
+        app:layout_constraintBottom_toTopOf="@+id/txtTest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtLabel"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtLabel2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="27dp"
+        android:text="BREAD"
+        app:layout_constraintBottom_toTopOf="@+id/txtLabel5"
+        app:layout_constraintEnd_toStartOf="@+id/txtTest2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLabel3" />
+
+    <TextView
+        android:id="@+id/txtLabel5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="24dp"
+        android:text="POLISH"
+        app:layout_constraintBottom_toTopOf="@+id/txtLabel6"
+        app:layout_constraintEnd_toStartOf="@+id/txtTest3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLabel2" />
+
+    <TextView
+        android:id="@+id/txtLabel6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="297dp"
+        android:text="PEN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/txtTest4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLabel5" />
+
+    <TextView
+        android:id="@+id/txtLabel3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="18dp"
+        android:text="MILK"
+        app:layout_constraintBottom_toTopOf="@+id/txtLabel2"
+        app:layout_constraintEnd_toStartOf="@+id/txtTest"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLabel" />
+
+    <TextView
+        android:id="@+id/txtDiscount"
+        android:layout_width="@dimen/textBoxSize"
+        android:layout_height="@dimen/textBoxSizeH"
+        android:layout_marginTop="39dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/txtTest4"
+        app:layout_constraintTop_toBottomOf="@+id/txtTest4" />
+
+    <TextView
+        android:id="@+id/txtPriceabel"
+        android:layout_width="@dimen/textBoxSize"
+        android:layout_height="@dimen/textBoxSizeH"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="28dp"
+        android:text="Amount"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDiscountlabel" />
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="@dimen/textBoxSize"
+        android:layout_height="@dimen/textBoxSizeH"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/txtDiscount"
+        app:layout_constraintTop_toBottomOf="@+id/txtDiscount" />
+
+    <TextView
+        android:id="@+id/txtDiscountlabel"
+        android:layout_width="@dimen/textBoxSize"
+        android:layout_height="@dimen/textBoxSizeH"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="39dp"
+        android:text="Discount(15%)"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLabel6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

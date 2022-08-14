@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_dim">100dp</dimen>
+    <dimen name="text_height_dim">30dp</dimen>
+    <dimen name="textBoxSize">160dp</dimen>
+    <dimen name="textBoxSizeH">40dp</dimen>
+</resources>
